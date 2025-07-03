@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from './components/';
+import Header from './components/Header';
 import './App.css';
 
 function App() {
@@ -7,11 +7,9 @@ function App() {
     <>
       <Header />
       <main>
-        <h1>Bem-vindo ao site do Bayside Shopping</h1>
-        <p>Conteúdo principal da página</p>
       </main>
     </>
-  )
+  );
 }
 
 export default App;
