@@ -40,3 +40,29 @@
 .read-the-docs {
   color: #888;
 }
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color: #222;
+  color: #fff;
+  font-family: Arial, sans-serif;
+
+  
+  display: block;
+}
+
+
+main {
+  padding-top: 120px; 
+  padding: 20px 40px;
+  min-height: calc(100vh - 120px);
+  background-color: #222;
+}
+
